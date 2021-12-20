@@ -1,7 +1,7 @@
 _id: spc_5eb712667d224bad81878f64e08415ec
 type: ApiSpec
 parentId: wrk_d58fc511fbf1495591e9939627cf4b9a
-modified: 1639600692254
+modified: 1640021829907
 created: 1639600546876
 fileName: my-spec.yaml
 contents: |
@@ -10,7 +10,7 @@ contents: |
     title: Endpoint Security
     version: '1.2'
   servers:
-    - url: https://api.server.test/v2
+    - url: https://api.server.test/v3
 
   components:
     securitySchemes:
