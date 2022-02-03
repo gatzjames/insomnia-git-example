@@ -3,6 +3,6 @@ type: ApiSpec
 parentId: wrk_d58fc511fbf1495591e9939627cf4b9a
 modified: 1639600692254
 created: 1639600546876
-fileName: my-spec.yaml
+fileName: spec.yaml
 root: .
 contentType: yaml
