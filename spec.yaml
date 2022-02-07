@@ -3,7 +3,7 @@ openapi: '3.0.2'
     title: Endpoint Security
     version: '1.2'
   servers:
-    - url: https://api.server.test/v2
+    - url: https://api.server.test/v3
 
   components:
     securitySchemes:
