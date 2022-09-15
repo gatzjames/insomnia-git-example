@@ -1,0 +1,37 @@
+_id: req_8998a27f360b4e81bd34016734272214
+type: Request
+parentId: wrk_d58fc511fbf1495591e9939627cf4b9a
+modified: 1663233944505
+created: 1663165342644
+url: mockbin.org/echo
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"a": 1
+    }
+parameters:
+  - id: pair_da16e8a3379e420a83c6ea26b3cdbd43
+    name: a
+    value: "{{ _.xApiKey }}"
+    description: ""
+headers:
+  - id: pair_dbcdcecec5f345eb84eb65a397b8c5ad
+    name: asdfa
+    value: "{{ _.xApiKey }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2db26284eca2401fb6cce2dc7e416239
+authentication: {}
+metaSortKey: -1663165342644
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

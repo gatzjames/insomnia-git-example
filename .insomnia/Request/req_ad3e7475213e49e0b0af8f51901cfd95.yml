@@ -1,17 +1,21 @@
-_id: req_wrk_d58fc511fbf1495591e9939627cf4b9a05bfadcb
+_id: req_ad3e7475213e49e0b0af8f51901cfd95
 type: Request
 parentId: wrk_d58fc511fbf1495591e9939627cf4b9a
-modified: 1639600569162
-created: 1639600569162
-url: "{{ base_url }}/none"
-name: /none
+modified: 1663165435423
+created: 1663165325695
+url: http://localhost:3000/?a=b&a=xApiKey
+name: New Request
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_509c71dc48a345b88038fbbdb85a39c9
+    name: a
+    value: b
+    description: ""
 headers: []
 authentication: {}
-metaSortKey: -1639600569162
+metaSortKey: -1663165325695
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
