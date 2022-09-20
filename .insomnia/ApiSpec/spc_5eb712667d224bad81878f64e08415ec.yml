@@ -178,5 +178,4 @@ contents: |-
           responses:
             '200':
               description: OK
-root: .
 contentType: yaml
