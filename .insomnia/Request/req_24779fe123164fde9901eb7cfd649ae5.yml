@@ -1,20 +1,17 @@
-_id: req_wrk_d58fc511fbf1495591e9939627cf4b9a4112dc81
+_id: req_24779fe123164fde9901eb7cfd649ae5
 type: Request
 parentId: wrk_d58fc511fbf1495591e9939627cf4b9a
-modified: 1639600569161
-created: 1639600569161
-url: "{{ base_url }}/none/basic"
-name: /none/basic
+modified: 1663751746993
+created: 1663682060582
+url: ""
+name: Test
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication:
-  type: basic
-  username: "{{ httpUsername }}"
-  password: "{{ httpPassword }}"
-metaSortKey: -1639600569161
+authentication: {}
+metaSortKey: -1663682060582
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
