@@ -1,0 +1,26 @@
+_id: req_8f90825b70674a689475e5a96e84ec28
+type: Request
+parentId: wrk_d58fc511fbf1495591e9939627cf4b9a
+modified: 1663679733062
+created: 1663679425489
+url: mockbin.org
+name: Mockbin
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: adsfasdf
+  accessTokenUrl: asdfasdfa
+  clientSecret: asdfasdfasdf
+metaSortKey: -1663679425489
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
