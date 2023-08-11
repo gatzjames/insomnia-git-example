@@ -1,0 +1,24 @@
+_id: req_wrk_d58fc511fbf1495591e9939627cf4b9a4a563129
+type: Request
+parentId: wrk_d58fc511fbf1495591e9939627cf4b9a
+modified: 1639600569159
+created: 1639600569159
+url: "{{ base_url }}/basic"
+name: /basic
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ httpUsername }}"
+  password: "{{ httpPassword }}"
+metaSortKey: -1639600569159
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

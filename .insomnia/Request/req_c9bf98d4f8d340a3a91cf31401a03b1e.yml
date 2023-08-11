@@ -1,0 +1,27 @@
+_id: req_c9bf98d4f8d340a3a91cf31401a03b1e
+type: Request
+parentId: wrk_d58fc511fbf1495591e9939627cf4b9a
+modified: 1691761215766
+created: 1691761201914
+url: https://mockbin.org/echo
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: text/plain
+  text: asdfasdf
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/plain
+  - name: User-Agent
+    value: Insomnia/2023.5.0-beta.12
+authentication: {}
+metaSortKey: -1691761201914
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
