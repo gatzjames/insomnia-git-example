@@ -1,0 +1,30 @@
+_id: req_9f5de7eb50ac45c3afa9aa87843039dd
+type: Request
+parentId: wrk_81d02f24906e4234813c4712dc85eacf
+modified: 1702996940318
+created: 1702920361387
+url: https://httpbin.org/anything
+name: TEst
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"a": "{{a}}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.4.5
+authentication: {}
+metaSortKey: -1702920361387
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
