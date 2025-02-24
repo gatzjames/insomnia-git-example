@@ -1,0 +1,22 @@
+type: mock.insomnia.rest/5.0
+name: My mock server
+meta:
+  id: wrk_8493aeacaefe41afb2854d5f28e3ef53
+  created: 1740420404617
+  modified: 1740420404617
+server:
+  meta:
+    id: mock_2e6de14dc0e74acd93a3c211d1edeb68
+    created: 1740420404622
+    modified: 1740420404622
+  url: http://localhost:3000
+  useInsomniaCloud: false
+routes:
+  - name: /123
+    meta:
+      id: mock-route_e29705bce32f450c8f986706486550de
+      created: 1740420411548
+      modified: 1740420411548
+    method: GET
+    mimeType: application/json
+    statusCode: 200
