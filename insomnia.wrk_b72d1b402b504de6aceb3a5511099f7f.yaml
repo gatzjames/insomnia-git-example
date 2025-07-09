@@ -4,6 +4,7 @@ meta:
   id: wrk_b72d1b402b504de6aceb3a5511099f7f
   created: 1740420528148
   modified: 1740420528148
+  description: ""
 environments:
   name: Base Environment
   meta:
@@ -19,10 +20,3 @@ environments:
         modified: 1740420531422
         isPrivate: false
         sortKey: 1740420531422
-    - name: New Environment
-      meta:
-        id: env_3b6eee5fdba34ce0b268a975e8c2edaa
-        created: 1740420533771
-        modified: 1740420533771
-        isPrivate: true
-        sortKey: 1740420533771

@@ -4,18 +4,24 @@ meta:
   id: wrk_6107c580016147f09fc3d6434a89cc9e
   created: 1740420520361
   modified: 1740420520361
+  description: ""
 collection:
-  - name: New Request
+  - url: ""
+    name: New Request
     meta:
       id: req_b8cd6f6d62e649999e10a709853de903
       created: 1740420545372
       modified: 1740420545372
       isPrivate: false
+      description: ""
       sortKey: -1740420545372
     method: GET
     headers:
       - name: User-Agent
         value: insomnia/11.0.0-beta.0
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
