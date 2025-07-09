@@ -1,0 +1,14 @@
+type: collection.insomnia.rest/5.0
+name: My Collection
+meta:
+  id: wrk_a8f11e6f2aaa44329e709428b4af820e
+  created: 1724330787531
+  modified: 1724330787531
+  description: ""
+environments:
+  name: Base Environment
+  meta:
+    id: env_7416a0ad5fdbfa6e31781eda2b43715b5f70c399
+    created: 1724330787532
+    modified: 1724330787532
+    isPrivate: false

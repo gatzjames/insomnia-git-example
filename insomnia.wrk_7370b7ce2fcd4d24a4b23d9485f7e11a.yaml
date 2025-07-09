@@ -1,0 +1,36 @@
+type: collection.insomnia.rest/5.0
+name: Magic
+meta:
+  id: wrk_7370b7ce2fcd4d24a4b23d9485f7e11a
+  created: 1724331818100
+  modified: 1724331818100
+  description: ""
+collection:
+  - url: ""
+    name: New Request
+    meta:
+      id: req_b90fca791b46452bb0fb111d1a343e0a
+      created: 1724331912351
+      modified: 1724331912351
+      isPrivate: false
+      description: ""
+      sortKey: -1724331912351
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/9.3.4-beta.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+environments:
+  name: Base Environment
+  meta:
+    id: env_b28537cb82634e31cd59eceebf7b24962ed491dc
+    created: 1724331818101
+    modified: 1724331818101
+    isPrivate: false
