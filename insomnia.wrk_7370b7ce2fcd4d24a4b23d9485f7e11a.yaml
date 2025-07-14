@@ -6,12 +6,12 @@ meta:
   modified: 1724331818100
   description: ""
 collection:
-  - url: ""
+  - url: https://google.com
     name: New Request
     meta:
       id: req_b90fca791b46452bb0fb111d1a343e0a
       created: 1724331912351
-      modified: 1724331912351
+      modified: 1752236541307
       isPrivate: false
       description: ""
       sortKey: -1724331912351
@@ -27,6 +27,89 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: ""
+    name: New Request
+    meta:
+      id: req_ecd37e0a1d9a45c18ae3efd34d2b0b0a
+      created: 1752236915598
+      modified: 1752236915598
+      isPrivate: false
+      description: ""
+      sortKey: -1752236915598
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:4010/events
+    name: New Event Stream
+    meta:
+      id: req_28d4798d2a2b461db0f2b2edc4ee7e18
+      created: 1752236917297
+      modified: 1752236962334
+      isPrivate: false
+      description: ""
+      sortKey: -1752236917297
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.3.0
+      - name: Accept
+        value: text/event-stream
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_b28537cb82634e31cd59eceebf7b24962ed491dc
+    created: 1752234154138
+    modified: 1752236542158
+  cookies:
+    - key: SOCS
+      value: CAAaBgiAqMHDBg
+      domain: google.com
+      path: /
+      secure: true
+      hostOnly: false
+      creation: 2025-07-11T12:21:43.455Z
+      lastAccessed: 2025-07-11T12:21:43.455Z
+      sameSite: lax
+      id: d6359b7c-a8d0-47c5-80f0-36b68d9a987a
+    - key: AEC
+      value: AVh_V2icFw4k5BM0ql0wvBN1xQesdf37U-tqdgnps1XzWurdDTPYwpaa5jA
+      domain: google.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: false
+      creation: 2025-07-11T12:21:43.456Z
+      lastAccessed: 2025-07-11T12:21:43.456Z
+      sameSite: lax
+      id: 1e378048-1cfa-46e3-ae27-af01881f5d63
+    - key: __Secure-ENID
+      value: 28.SE=d_6aMrF-U5cO7C76cAFELM2CG_zuPefKOgugMOJW7Zkk2WFSCoLca2zS_r0-5q8gf3AgDEdDexyfIjKlAX-nI5i31upsmRJuN6s8T1Xmt6cA31J0Im26DstXpDligedlcmrukdHV3n9ZgYwGROT84c5wQQrg0sKsH_fsC9OffzS27-Tk8PGb90yBvjwT09rs2TRXUOzp8nFPKqSUeBrugjN6umbAPh0cH4X1_OGcjHVQjiUPw9VrAD3Z88UE0Bfj
+      domain: google.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: false
+      creation: 2025-07-11T12:21:43.456Z
+      lastAccessed: 2025-07-11T12:22:22.157Z
+      sameSite: lax
+      id: a60bba21-d0f5-4517-954e-bb30f268e369
 environments:
   name: Base Environment
   meta:
