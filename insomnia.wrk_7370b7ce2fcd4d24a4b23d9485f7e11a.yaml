@@ -19,6 +19,9 @@ collection:
     headers:
       - name: User-Agent
         value: insomnia/9.3.4-beta.1
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -40,6 +43,9 @@ collection:
     headers:
       - name: User-Agent
         value: insomnia/11.3.0
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -63,6 +69,9 @@ collection:
         value: insomnia/11.3.0
       - name: Accept
         value: text/event-stream
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -78,38 +87,30 @@ cookieJar:
     created: 1752234154138
     modified: 1752236542158
   cookies:
-    - key: SOCS
+    - id: d6359b7c-a8d0-47c5-80f0-36b68d9a987a
+      key: SOCS
       value: CAAaBgiAqMHDBg
       domain: google.com
       path: /
       secure: true
+      httpOnly: false
       hostOnly: false
-      creation: 2025-07-11T12:21:43.455Z
-      lastAccessed: 2025-07-11T12:21:43.455Z
-      sameSite: lax
-      id: d6359b7c-a8d0-47c5-80f0-36b68d9a987a
-    - key: AEC
+    - id: 1e378048-1cfa-46e3-ae27-af01881f5d63
+      key: AEC
       value: AVh_V2icFw4k5BM0ql0wvBN1xQesdf37U-tqdgnps1XzWurdDTPYwpaa5jA
       domain: google.com
       path: /
       secure: true
       httpOnly: true
       hostOnly: false
-      creation: 2025-07-11T12:21:43.456Z
-      lastAccessed: 2025-07-11T12:21:43.456Z
-      sameSite: lax
-      id: 1e378048-1cfa-46e3-ae27-af01881f5d63
-    - key: __Secure-ENID
+    - id: a60bba21-d0f5-4517-954e-bb30f268e369
+      key: __Secure-ENID
       value: 28.SE=d_6aMrF-U5cO7C76cAFELM2CG_zuPefKOgugMOJW7Zkk2WFSCoLca2zS_r0-5q8gf3AgDEdDexyfIjKlAX-nI5i31upsmRJuN6s8T1Xmt6cA31J0Im26DstXpDligedlcmrukdHV3n9ZgYwGROT84c5wQQrg0sKsH_fsC9OffzS27-Tk8PGb90yBvjwT09rs2TRXUOzp8nFPKqSUeBrugjN6umbAPh0cH4X1_OGcjHVQjiUPw9VrAD3Z88UE0Bfj
       domain: google.com
       path: /
       secure: true
       httpOnly: true
       hostOnly: false
-      creation: 2025-07-11T12:21:43.456Z
-      lastAccessed: 2025-07-11T12:22:22.157Z
-      sameSite: lax
-      id: a60bba21-d0f5-4517-954e-bb30f268e369
 environments:
   name: Base Environment
   meta:

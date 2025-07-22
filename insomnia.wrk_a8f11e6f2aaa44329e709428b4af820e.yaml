@@ -5,6 +5,12 @@ meta:
   created: 1724330787531
   modified: 1724330787531
   description: ""
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_7416a0ad5fdbfa6e31781eda2b43715b5f70c399
+    created: 1753174256389
+    modified: 1753174256389
 environments:
   name: Base Environment
   meta:
