@@ -1,10 +1,35 @@
 type: collection.insomnia.rest/5.0
+schema_version: "5.1"
 name: My Collection
 meta:
   id: wrk_a8f11e6f2aaa44329e709428b4af820e
   created: 1724330787531
   modified: 1724330787531
   description: ""
+collection:
+  - url: ""
+    name: New Request
+    meta:
+      id: req_946f0984ccf647a1beb1c1e299c09863
+      created: 1766529501643
+      modified: 1766529501643
+      isPrivate: false
+      description: ""
+      sortKey: -1766529501643
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.2.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
