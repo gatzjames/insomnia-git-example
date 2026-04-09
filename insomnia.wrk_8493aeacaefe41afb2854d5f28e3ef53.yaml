@@ -1,4 +1,5 @@
 type: mock.insomnia.rest/5.0
+schema_version: "5.1"
 name: My mock server
 meta:
   id: wrk_8493aeacaefe41afb2854d5f28e3ef53
@@ -18,6 +19,16 @@ routes:
       id: mock-route_e29705bce32f450c8f986706486550de
       created: 1740420411548
       modified: 1740420411548
+    body: ""
+    method: GET
+    mimeType: application/json
+    statusCode: 200
+    statusText: ""
+  - name: /
+    meta:
+      id: mock-route_9267660c011d4a44ac7e781e2592a183
+      created: 1775669880203
+      modified: 1775669880203
     body: ""
     method: GET
     mimeType: application/json
